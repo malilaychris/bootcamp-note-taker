@@ -48,3 +48,9 @@ app.post('/api/notes', (req, res) => {
     });
   });
 });
+
+app.delete('/api/notes/:id', (req, res) => {
+  fs.readFile('db/db.json', (err, data) => {
+
+  });
+});
